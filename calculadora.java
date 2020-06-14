@@ -2,7 +2,7 @@ package senai;
 
 import javax.swing.*;
 
-public class Desafio05 {
+public class calculadora {
 
     public static void main(String[] args) {
 
@@ -35,6 +35,8 @@ public class Desafio05 {
                 break;
             case 3:
 
+                resultado = digito01 * digito02;
+                JOptionPane.showMessageDialog(null,"O resultado da operação "+digito01+"x"+digito02+" é: "+resultado);
 
                 break;
             case 4:
