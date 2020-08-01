@@ -40,7 +40,8 @@ public class calculadora {
 
                 break;
             case 4:
-
+				resultado = digito01 / digito02;
+                JOptionPane.showMessageDialog(null,"O resultado da operação "+digito01+"/"+digito02+" é: "+resultado);
 
                 break;
 
